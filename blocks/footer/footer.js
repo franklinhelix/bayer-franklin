@@ -19,3 +19,7 @@ export default async function decorate(block) {
 
   block.append(footer);
 }
+
+//ananth
+document.querySelector("body > footer > div > div > div > div:nth-child(1) > div > div:nth-child(2) > div:nth-child(1) > ul").classList.add("FindCare");
+
